@@ -1,0 +1,19 @@
+# Ignore everything at all depths
+/**/*
+
+# Unignore directory structure under Assets only
+!/Assets/
+!/Assets/**/
+
+# Unignore ProjectSettings and Packages
+!/ProjectSettings/
+!/ProjectSettings/**
+!/Packages/
+!/Packages/**
+
+# Unignore .cs and .cs.meta anywhere under unignored dirs
+!*.cs
+!*.cs.meta
+
+# Unignore .gitignore
+!.gitignore
