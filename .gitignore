@@ -17,3 +17,6 @@
 
 # Unignore .gitignore
 !.gitignore
+
+# Unignore README
+!README.md
